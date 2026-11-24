@@ -24,6 +24,14 @@ function SomeCodeHere()
 ```
 
 
+## Indented
+
+    function SomeCodeHere()
+    {
+        // ...
+    }
+
+
 ## Escaped Backticks
 
 ``There is a literal backtick (`) here.``

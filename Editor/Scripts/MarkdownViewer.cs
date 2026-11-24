@@ -142,7 +142,9 @@ namespace MG.MDV
 
         void DrawToolbar( float contentWidth )
         {
-            var style  = GUI.skin.button;
+           // GUI.Box(new Rect(100, 100, 100, 100), "DrawToolbar");
+
+           var style  = GUI.skin.button;
             var size   = style.fixedHeight;
             var btn    = new Rect( Margin.x + contentWidth - size, Margin.y, size, size );
 
